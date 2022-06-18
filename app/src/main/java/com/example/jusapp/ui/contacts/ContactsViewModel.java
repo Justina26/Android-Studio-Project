@@ -11,6 +11,7 @@ public class ContactsViewModel extends ViewModel {
     public ContactsViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is contacts fragment");
+
     }
 
     public LiveData<String> getText() {

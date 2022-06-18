@@ -8,10 +8,12 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_baseline_home_24"
             android:title="@string/menu_home" />
+
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_baseline_image_24"
             android:title="@string/menu_gallery" />
+
         <item
             android:id="@+id/nav_contacts"
             android:icon="@drawable/ic_baseline_contacts_24"

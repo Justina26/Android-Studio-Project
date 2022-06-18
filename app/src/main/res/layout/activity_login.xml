@@ -103,16 +103,24 @@
 
 
         <ImageView
+
+            android:id="@+id/gglBtn"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
             android:src="@drawable/google"/>
+
         <ImageView
+
+            android:id="@+id/fbBtn"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"
             android:src="@drawable/fb"/>
+
         <ImageView
+
+            android:id="@+id/twtBtn"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_margin="20dp"

@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
 
+import com.facebook.AccessToken;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -19,6 +22,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.jusapp.databinding.ActivityNavigationDrawerBinding;
 
+import org.json.JSONObject;
+
 public class NavigationDrawerActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
@@ -27,6 +32,28 @@ public class NavigationDrawerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+//        AccessToken accessToken = AccessToken.getCurrentAccessToken();
+//
+//        GraphRequest request = GraphRequest.newMeRequest(
+//                accessToken,
+//                new GraphRequest.GraphJSONObjectCallback() {
+//                    @Override
+//                    public void onCompleted(
+//                            JSONObject object,
+//                            GraphResponse response) {
+//                        // Application code
+//                    }
+//                });
+//        Bundle parameters = new Bundle();
+//        parameters.putString("fields", "id,name,link");
+//        request.setParameters(parameters);
+//        request.executeAsync();
+
+
+
+
 
         binding = ActivityNavigationDrawerBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
